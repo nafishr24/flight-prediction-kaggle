@@ -5,6 +5,24 @@ This project predicts ticket types for airlines, including economy, premium econ
 
 The dataset used contains detailed information on domestic flights in India for the period of July to August 2023. The dataset can be downloaded from [Kaggle - Goibibo Flight Data](https://www.kaggle.com/datasets/iamavyukt/goibibo-flight-data).
 
+#### Dataset Details:
+This file contains detailed information about domestic flights in India for the period of July to August 2023.
+
+**Columns:**
+- **flight_date:** The date of the flight in YYYY-MM-DD format.
+- **airline:** Name of the airline operating the flight.
+- **flight_num:** The flight number.
+- **class:** Travel class (e.g., economy, business).
+- **from:** Departure city.
+- **dep_time:** Scheduled departure time.
+- **to:** Arrival city.
+- **arr_time:** Scheduled arrival time.
+- **duration:** Total duration of the flight in hours and minutes.
+- **price:** Ticket price in Indian Rupees (INR).
+- **stops:** Number of stops (e.g., non-stop, 1-stop).
+
+The dataset is structured to facilitate analysis of flight durations, prices, and other travel patterns, making it suitable for research and exploration of the Indian domestic aviation market.
+
 ### Methods Used
 This project employs **KMeans Clustering** to group flights based on key features, with the optimal number of clusters determined using the **Elbow Method**.
 
